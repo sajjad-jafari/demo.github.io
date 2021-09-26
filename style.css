@@ -1,0 +1,267 @@
+html {
+
+}
+body {
+    background-image: linear-gradient(#FC5E55 ,#FA4083);
+    
+    color: white;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.container {
+    width: 1024px;
+
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo {
+
+padding-top: 5px;
+padding-bottom: 5px;
+
+}
+
+
+
+main {
+    min-height:300px;
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+   
+    min-height: 250px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.096);
+    border-radius: 10px;
+
+    
+}
+
+.card1 {
+    background-size: cover;
+  background-position: bottom;
+
+    background-image: url(image-background-card1.jpg);
+  
+    min-height:250px;
+    width: 30%;
+    border-radius: 20px;
+
+}
+.card2 {
+    background-position: bottom;
+
+    background-size: cover;
+    background-image: url(image-background-card2.jpg);
+
+   min-height:250px;
+    width: 30%;
+    border-radius: 20px;
+
+
+}
+.card3 {
+    background-position: bottom;
+
+    background-size: cover;
+
+    background-image: url(image-background-card3.jpg);
+
+    min-height:250px;
+    width: 30%;
+    border-radius: 20px;
+
+
+
+}
+
+
+.herobox1 {
+    flex: 2;
+    padding-right: 100px;
+    background-color: rgba(0, 0, 0, 0.096);
+    border-radius: 10px;
+}
+
+.herobox2 {
+    flex:1;
+
+}
+
+
+
+
+
+h1 {
+    font-size: 3.2rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+
+}
+
+p {
+    line-height: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.card-h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3rem;
+}
+
+.cards p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    padding-top: 30px;
+}
+
+i {
+    font-size: 5rem;
+}
+
+div div a {
+    color: white;
+    text-decoration: none;
+}
+
+div div a:hover {
+    color: rgb(248, 155, 155);
+
+}
+
+
+.card1, .card2, .card3 {
+    box-sizing: border-box;
+    padding:20px
+}
+
+
+.herobutton {
+    background-color: white;
+    color:tomato;
+    border-radius: 3px 100px 3px 3px;
+    padding: 10px;
+    display: inline-block;
+    
+    box-shadow: rgba(0, 0, 0, 0.11) 5px 5px;
+
+
+
+    margin-left: 75%;
+    
+}
+
+hr {
+    border:  0px ;
+    border-top: 1px solid rgba(255, 255, 255, 0.342);
+  border-radius: 1px;
+    
+}
+
+
+
+
+li {
+    display: inline;
+    padding-left: 15px;
+    padding-right:15px;
+    
+}
+
+
+
+.navlink {
+border: 2px solid rgba(255, 255, 255, 0.534);
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 10px;
+  
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+.testo {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.test {
+    width: 47%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+.testomonials {
+    font-family:Ephesis;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+   margin-bottom: 10px;
+}
+
+
+.test :nth-child(2) {
+    font-size: 10px;
+    padding-left:30px;
+
+}
+
+
+
+.drop-down a {
+    background-color: rgba(0, 0, 0, 0.438);
+    line-height: 0rem;
+    padding: 30px;
+    margin-left: 150px;
+    display: block;
+    margin-bottom: 0px;
+   
+}
+
+.drop-down a:hover {
+    background-color: rgba(0, 0, 0, 0.671);
+}
+
+
+.drop-down {
+    display: none;
+    position: absolute;
+    padding-top: 20px;
+}
+
+.store:hover .drop-down {
+    display: block;
+    
+}
+
+
+
+.store i {
+    font-size:1rem;
+    padding-left: 5px;
+}
